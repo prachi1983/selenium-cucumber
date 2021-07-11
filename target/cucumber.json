@@ -1,0 +1,488 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-11T05:54:52.795Z",
+        "before": [
+          {
+            "result": {
+              "duration": 26485000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cucumber.test.DataDrivenTest.preCondition()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Test Case to verify Calculator functionality",
+        "description": "",
+        "id": "calculator-functionality-with-multiple-operation;test-case-to-verify-calculator-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4301000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cucumber.test.DataDrivenTest.postCondition()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3481000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open chrome and navigate to calculate page",
+            "match": {
+              "location": "com.cucumber.test.DataDrivenTest.open_chrome_and_navigate_to_calculate_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5466000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter two numbers \"4\" and \"3\" with operator \"+\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"3\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"+\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.cucumber.test.DataDrivenTest.enter_two_numbers_and_with_operator(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3265000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Validate output \"7\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"7\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cucumber.test.DataDrivenTest.validate_output(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DataDriven"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-11T05:55:36.314Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7867000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cucumber.test.DataDrivenTest.preCondition()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Test Case to verify Calculator functionality",
+        "description": "",
+        "id": "calculator-functionality-with-multiple-operation;test-case-to-verify-calculator-functionality;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 5320000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cucumber.test.DataDrivenTest.postCondition()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2354000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open chrome and navigate to calculate page",
+            "match": {
+              "location": "com.cucumber.test.DataDrivenTest.open_chrome_and_navigate_to_calculate_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1786000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter two numbers \"8\" and \"2\" with operator \"-\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"8\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"-\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.cucumber.test.DataDrivenTest.enter_two_numbers_and_with_operator(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3163000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Validate output \"6\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"6\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cucumber.test.DataDrivenTest.validate_output(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DataDriven"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-11T05:55:56.851Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5563000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cucumber.test.DataDrivenTest.preCondition()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Test Case to verify Calculator functionality",
+        "description": "",
+        "id": "calculator-functionality-with-multiple-operation;test-case-to-verify-calculator-functionality;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 6755000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cucumber.test.DataDrivenTest.postCondition()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2294000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open chrome and navigate to calculate page",
+            "match": {
+              "location": "com.cucumber.test.DataDrivenTest.open_chrome_and_navigate_to_calculate_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1710000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter two numbers \"3\" and \"4\" with operator \"*\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"4\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"*\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.cucumber.test.DataDrivenTest.enter_two_numbers_and_with_operator(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3234000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Validate output \"12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cucumber.test.DataDrivenTest.validate_output(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DataDriven"
+          }
+        ]
+      }
+    ],
+    "name": "Calculator Functionality with multiple operation",
+    "description": "",
+    "id": "calculator-functionality-with-multiple-operation",
+    "keyword": "Feature",
+    "uri": "file:Features/datadriven.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-11T05:54:52.789Z",
+        "line": 4,
+        "name": "Test to validate Login functionality of -saucedemo.com-",
+        "description": "",
+        "id": "saucedemo-application;test-to-validate-login-functionality-of--saucedemo.com-",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29490000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open chrome and navigate to Login page",
+            "match": {
+              "location": "com.cucumber.test.SauceTest.open_chrome_and_navigate_to_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6596000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Valid username and passed is entered",
+            "match": {
+              "location": "com.cucumber.test.SauceTest.valid_username_and_passed_is_entered()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 146000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should be logged in successfully and verify url contains \"inventory.html\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"inventory.html\"",
+                  "offset": 62
+                }
+              ],
+              "location": "com.cucumber.test.SauceTest.user_should_be_logged_in_successfully_and_verify_url_contains(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-11T05:55:29.083Z",
+        "line": 10,
+        "name": "Test to validate Add cart functionality",
+        "description": "",
+        "id": "saucedemo-application;test-to-validate-add-cart-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3247000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "select filter \"Price (low to high)\" Click on \"ADD TO CART\" button.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Price (low to high)\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"ADD TO CART\"",
+                  "offset": 45
+                }
+              ],
+              "location": "com.cucumber.test.SauceTest.select_filter_click_on_button(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2150000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Under \"YOUR CART\" order should get entered and \"ADD TO CART\" button should get change to \"REMOVE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"YOUR CART\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"ADD TO CART\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"REMOVE\"",
+                  "offset": 89
+                }
+              ],
+              "location": "com.cucumber.test.SauceTest.under_order_should_get_entered_and_button_should_get_change_to(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddCart"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-11T05:55:34.498Z",
+        "line": 15,
+        "name": "Test to validate Remove cart functionality",
+        "description": "",
+        "id": "saucedemo-application;test-to-validate-remove-cart-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2164000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Click on \"REMOVE\" button.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"REMOVE\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.cucumber.test.SauceTest.click_on_button(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12623000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Under \"YOUR CART\" order should get removed and \"REMOVE\" button should get change to \"ADD TO CART\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"YOUR CART\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"REMOVE\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"ADD TO CART\"",
+                  "offset": 84
+                }
+              ],
+              "location": "com.cucumber.test.SauceTest.under_order_should_get_removed_and_button_should_get_change_to(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RemoveCart"
+          }
+        ]
+      }
+    ],
+    "name": "SauceDemo Application",
+    "description": "",
+    "id": "saucedemo-application",
+    "keyword": "Feature",
+    "uri": "file:Features/saucedemo.feature",
+    "tags": []
+  }
+]
